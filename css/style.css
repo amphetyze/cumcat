@@ -429,3 +429,29 @@ body {
 .underline {
   text-decoration: underline;
 }
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  max-width: 300px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 479/824;
+}
+
+.swiper-slide-fully-visible {
+  opacity: 0.5;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next,
+.swiper-slide-active {
+  opacity: 1;
+}
